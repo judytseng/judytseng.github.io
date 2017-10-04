@@ -1,0 +1,36 @@
+body{
+	background-color: #E0D1D7;
+	font-family: Avenir, sans-serif;
+	color: #000000;
+}
+
+header{
+	text-align: right;
+}
+
+#hi {
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a:link {
+	color: #603D4B;
+}
+
+a:visited {
+	color: #605A5D;
+}
+
+a:hover {
+	color: #E591B3;
+}
+
+h2 {
+	text-align: center;
+	font-size: 48px;
+}
+
+#social {
+	text-align: center;
+}

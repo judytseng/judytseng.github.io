@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body{
 	background-color: #E0D1D7;
 	font-family: Avenir, sans-serif;
@@ -31,6 +37,31 @@ h2 {
 	font-size: 48px;
 }
 
-#social {
-	text-align: center;
+img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+
+#avatar {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border-color: red;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+}
+
+#social-container {
+	width: 118px;
+	margin: 0 auto;
+}
+
+.social {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
 }

@@ -90,6 +90,12 @@ footer {
 	text-decoration: none;
 }
 
+.insidenavbar {
+	width: 100%;
+	max-width: 325px;
+	margin: 0 auto;
+}
+
 .main {
 	margin-top: 54px;
 }
@@ -120,6 +126,14 @@ footer {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+.fa {
+	width: 30px;
+}
+
+#about {
+	padding-top: 60px;
 }
 
 #social-container {

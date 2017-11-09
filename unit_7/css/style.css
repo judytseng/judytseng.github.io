@@ -145,11 +145,30 @@ footer {
 	padding: 1em 1em 0 1em;
 }
 
+.removebottom {
+	margin-bottom: 0px;
+}
+
+.addtop {
+	padding-top: 1em;
+}
+
+.project-pic {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
 
 .clearfix:after {
 	content: "";
 	display: block;
 	clear: both;
+}
+
+.styleguide-pic {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
 .fa {
@@ -164,28 +183,8 @@ footer {
 	padding-bottom: 16px;
 }
 
-#removebottom {
-	margin-bottom: 0px;
-}
-
-#addtop {
-	padding-top: 1em;
-}
-
-#project-pic {
-	width: 100%;
-	max-width: 900px;
-	margin: 0 auto;
-}
-
 #project-caption {
 	padding-top: 1em;
-}
-
-#styleguide-pic {
-	width: 100%;
-	max-width: 600px;
-	margin: 0 auto;
 }
 
 #social-container {
@@ -202,8 +201,20 @@ footer {
 	.project {
 		width: 50%;
 	}
+
 	h2 {
 		font-size: 
+	}
+
+	.skills {
+		width: 100%;
+		float: none;
+	}
+
+	.projectcenter {
+		float: none;
+		margin: 0 auto;
+		clear: both;
 	}
 }
 
